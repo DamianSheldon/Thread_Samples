@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582E99A41EB834F900F07587 /* Define-Custom-Input-Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E99A31EB834F900F07587 /* Define-Custom-Input-Source.m */; };
+		582E99AD1EB8368000F07587 /* ThreadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E99AC1EB8368000F07587 /* ThreadManager.m */; };
+		582E99B61EB8646600F07587 /* Configuring-an-NSMachPort-Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E99B51EB8646600F07587 /* Configuring-an-NSMachPort-Object.m */; };
+		582E99BC1EB866A600F07587 /* DMLApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E99BB1EB866A600F07587 /* DMLApplication.m */; };
+		582E99BF1EB867B500F07587 /* MyWorkerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E99BE1EB867B500F07587 /* MyWorkerClass.m */; };
+		582E99C21EB86BA200F07587 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E99C11EB86BA200F07587 /* Constants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		582E999E1EB834F900F07587 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		582E99B11EB8646500F07587 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		582E99A01EB834F900F07587 /* Define-Custom-Input-Source */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Define-Custom-Input-Source"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582E99A31EB834F900F07587 /* Define-Custom-Input-Source.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Define-Custom-Input-Source.m"; sourceTree = "<group>"; };
+		582E99AB1EB8368000F07587 /* ThreadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadManager.h; sourceTree = "<group>"; };
+		582E99AC1EB8368000F07587 /* ThreadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadManager.m; sourceTree = "<group>"; };
+		582E99B31EB8646500F07587 /* Configuring-an-NSMachPort-Object */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Configuring-an-NSMachPort-Object"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582E99B51EB8646600F07587 /* Configuring-an-NSMachPort-Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Configuring-an-NSMachPort-Object.m"; sourceTree = "<group>"; };
+		582E99BA1EB866A600F07587 /* DMLApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLApplication.h; sourceTree = "<group>"; };
+		582E99BB1EB866A600F07587 /* DMLApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLApplication.m; sourceTree = "<group>"; };
+		582E99BD1EB867B500F07587 /* MyWorkerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWorkerClass.h; sourceTree = "<group>"; };
+		582E99BE1EB867B500F07587 /* MyWorkerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWorkerClass.m; sourceTree = "<group>"; };
+		582E99C01EB86BA200F07587 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		582E99C11EB86BA200F07587 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582E999D1EB834F900F07587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E99B01EB8646500F07587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582E99971EB834F700F07587 = {
+			isa = PBXGroup;
+			children = (
+				582E99A21EB834F900F07587 /* Thread_Samples */,
+				582E99B41EB8646500F07587 /* Configuring-an-NSMachPort-Object */,
+				582E99A11EB834F900F07587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		582E99A11EB834F900F07587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582E99A01EB834F900F07587 /* Define-Custom-Input-Source */,
+				582E99B31EB8646500F07587 /* Configuring-an-NSMachPort-Object */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		582E99A21EB834F900F07587 /* Thread_Samples */ = {
+			isa = PBXGroup;
+			children = (
+				582E99AA1EB8362500F07587 /* Define-Custom-Input-Source */,
+			);
+			path = Thread_Samples;
+			sourceTree = "<group>";
+		};
+		582E99AA1EB8362500F07587 /* Define-Custom-Input-Source */ = {
+			isa = PBXGroup;
+			children = (
+				582E99A31EB834F900F07587 /* Define-Custom-Input-Source.m */,
+				582E99AB1EB8368000F07587 /* ThreadManager.h */,
+				582E99AC1EB8368000F07587 /* ThreadManager.m */,
+			);
+			name = "Define-Custom-Input-Source";
+			sourceTree = "<group>";
+		};
+		582E99B41EB8646500F07587 /* Configuring-an-NSMachPort-Object */ = {
+			isa = PBXGroup;
+			children = (
+				582E99B51EB8646600F07587 /* Configuring-an-NSMachPort-Object.m */,
+				582E99BA1EB866A600F07587 /* DMLApplication.h */,
+				582E99BB1EB866A600F07587 /* DMLApplication.m */,
+				582E99BD1EB867B500F07587 /* MyWorkerClass.h */,
+				582E99BE1EB867B500F07587 /* MyWorkerClass.m */,
+				582E99C01EB86BA200F07587 /* Constants.h */,
+				582E99C11EB86BA200F07587 /* Constants.m */,
+			);
+			path = "Configuring-an-NSMachPort-Object";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		582E999F1EB834F900F07587 /* Define-Custom-Input-Source */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582E99A71EB834F900F07587 /* Build configuration list for PBXNativeTarget "Define-Custom-Input-Source" */;
+			buildPhases = (
+				582E999C1EB834F900F07587 /* Sources */,
+				582E999D1EB834F900F07587 /* Frameworks */,
+				582E999E1EB834F900F07587 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Define-Custom-Input-Source";
+			productName = Thread_Samples;
+			productReference = 582E99A01EB834F900F07587 /* Define-Custom-Input-Source */;
+			productType = "com.apple.product-type.tool";
+		};
+		582E99B21EB8646500F07587 /* Configuring-an-NSMachPort-Object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582E99B71EB8646600F07587 /* Build configuration list for PBXNativeTarget "Configuring-an-NSMachPort-Object" */;
+			buildPhases = (
+				582E99AF1EB8646500F07587 /* Sources */,
+				582E99B01EB8646500F07587 /* Frameworks */,
+				582E99B11EB8646500F07587 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Configuring-an-NSMachPort-Object";
+			productName = "Configuring-an-NSMachPort-Object";
+			productReference = 582E99B31EB8646500F07587 /* Configuring-an-NSMachPort-Object */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582E99981EB834F800F07587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Meiliang Dong";
+				TargetAttributes = {
+					582E999F1EB834F900F07587 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 98WR9248J9;
+						ProvisioningStyle = Automatic;
+					};
+					582E99B21EB8646500F07587 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 98WR9248J9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 582E999B1EB834F900F07587 /* Build configuration list for PBXProject "Thread_Samples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 582E99971EB834F700F07587;
+			productRefGroup = 582E99A11EB834F900F07587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				582E999F1EB834F900F07587 /* Define-Custom-Input-Source */,
+				582E99B21EB8646500F07587 /* Configuring-an-NSMachPort-Object */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582E999C1EB834F900F07587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582E99A41EB834F900F07587 /* Define-Custom-Input-Source.m in Sources */,
+				582E99AD1EB8368000F07587 /* ThreadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E99AF1EB8646500F07587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582E99BC1EB866A600F07587 /* DMLApplication.m in Sources */,
+				582E99BF1EB867B500F07587 /* MyWorkerClass.m in Sources */,
+				582E99B61EB8646600F07587 /* Configuring-an-NSMachPort-Object.m in Sources */,
+				582E99C21EB86BA200F07587 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		582E99A51EB834F900F07587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		582E99A61EB834F900F07587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		582E99A81EB834F900F07587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98WR9248J9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		582E99A91EB834F900F07587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98WR9248J9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		582E99B81EB8646600F07587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98WR9248J9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		582E99B91EB8646600F07587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98WR9248J9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582E999B1EB834F900F07587 /* Build configuration list for PBXProject "Thread_Samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582E99A51EB834F900F07587 /* Debug */,
+				582E99A61EB834F900F07587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582E99A71EB834F900F07587 /* Build configuration list for PBXNativeTarget "Define-Custom-Input-Source" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582E99A81EB834F900F07587 /* Debug */,
+				582E99A91EB834F900F07587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		582E99B71EB8646600F07587 /* Build configuration list for PBXNativeTarget "Configuring-an-NSMachPort-Object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582E99B81EB8646600F07587 /* Debug */,
+				582E99B91EB8646600F07587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 582E99981EB834F800F07587 /* Project object */;
+}
