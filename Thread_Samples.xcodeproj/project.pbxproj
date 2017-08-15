@@ -13,6 +13,19 @@
 		582E99BC1EB866A600F07587 /* DMLApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E99BB1EB866A600F07587 /* DMLApplication.m */; };
 		582E99BF1EB867B500F07587 /* MyWorkerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E99BE1EB867B500F07587 /* MyWorkerClass.m */; };
 		582E99C21EB86BA200F07587 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E99C11EB86BA200F07587 /* Constants.m */; };
+		586119371F42E4E200F03CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 586119361F42E4E200F03CBE /* main.m */; };
+		5861193A1F42E4E200F03CBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586119391F42E4E200F03CBE /* AppDelegate.m */; };
+		5861193D1F42E4E200F03CBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5861193C1F42E4E200F03CBE /* ViewController.m */; };
+		586119401F42E4E200F03CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5861193E1F42E4E200F03CBE /* Main.storyboard */; };
+		586119421F42E4E200F03CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586119411F42E4E200F03CBE /* Assets.xcassets */; };
+		586119451F42E4E200F03CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586119431F42E4E200F03CBE /* LaunchScreen.storyboard */; };
+		586119521F42E4F200F03CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 586119511F42E4F200F03CBE /* main.m */; };
+		586119551F42E4F200F03CBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586119541F42E4F200F03CBE /* AppDelegate.m */; };
+		586119581F42E4F200F03CBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586119571F42E4F200F03CBE /* ViewController.m */; };
+		5861195B1F42E4F200F03CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586119591F42E4F200F03CBE /* Main.storyboard */; };
+		5861195D1F42E4F200F03CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5861195C1F42E4F200F03CBE /* Assets.xcassets */; };
+		586119601F42E4F200F03CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5861195E1F42E4F200F03CBE /* LaunchScreen.storyboard */; };
+		586119671F42E5D400F03CBE /* RunLoopSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 586119661F42E5D400F03CBE /* RunLoopSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +62,28 @@
 		582E99BE1EB867B500F07587 /* MyWorkerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWorkerClass.m; sourceTree = "<group>"; };
 		582E99C01EB86BA200F07587 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		582E99C11EB86BA200F07587 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		586119331F42E4E200F03CBE /* RunLoopObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunLoopObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		586119361F42E4E200F03CBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		586119381F42E4E200F03CBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		586119391F42E4E200F03CBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5861193B1F42E4E200F03CBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5861193C1F42E4E200F03CBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5861193F1F42E4E200F03CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		586119411F42E4E200F03CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		586119441F42E4E200F03CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		586119461F42E4E200F03CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5861194E1F42E4F200F03CBE /* CustomInputSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomInputSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		586119511F42E4F200F03CBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		586119531F42E4F200F03CBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		586119541F42E4F200F03CBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		586119561F42E4F200F03CBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		586119571F42E4F200F03CBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5861195A1F42E4F200F03CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5861195C1F42E4F200F03CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5861195F1F42E4F200F03CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		586119611F42E4F200F03CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586119651F42E5D400F03CBE /* RunLoopSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopSource.h; sourceTree = "<group>"; };
+		586119661F42E5D400F03CBE /* RunLoopSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +101,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		586119301F42E4E200F03CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5861194B1F42E4F200F03CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,6 +123,8 @@
 			children = (
 				582E99AA1EB8362500F07587 /* Define-Custom-Input-Source */,
 				582E99B41EB8646500F07587 /* Configuring-an-NSMachPort-Object */,
+				586119341F42E4E200F03CBE /* RunLoopObserver */,
+				5861194F1F42E4F200F03CBE /* CustomInputSource */,
 				582E99A11EB834F900F07587 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +134,8 @@
 			children = (
 				582E99A01EB834F900F07587 /* Define-Custom-Input-Source */,
 				582E99B31EB8646500F07587 /* Configuring-an-NSMachPort-Object */,
+				586119331F42E4E200F03CBE /* RunLoopObserver.app */,
+				5861194E1F42E4F200F03CBE /* CustomInputSource.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +163,56 @@
 				582E99C11EB86BA200F07587 /* Constants.m */,
 			);
 			path = "Configuring-an-NSMachPort-Object";
+			sourceTree = "<group>";
+		};
+		586119341F42E4E200F03CBE /* RunLoopObserver */ = {
+			isa = PBXGroup;
+			children = (
+				586119381F42E4E200F03CBE /* AppDelegate.h */,
+				586119391F42E4E200F03CBE /* AppDelegate.m */,
+				5861193B1F42E4E200F03CBE /* ViewController.h */,
+				5861193C1F42E4E200F03CBE /* ViewController.m */,
+				5861193E1F42E4E200F03CBE /* Main.storyboard */,
+				586119411F42E4E200F03CBE /* Assets.xcassets */,
+				586119431F42E4E200F03CBE /* LaunchScreen.storyboard */,
+				586119461F42E4E200F03CBE /* Info.plist */,
+				586119351F42E4E200F03CBE /* Supporting Files */,
+			);
+			path = RunLoopObserver;
+			sourceTree = "<group>";
+		};
+		586119351F42E4E200F03CBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				586119361F42E4E200F03CBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5861194F1F42E4F200F03CBE /* CustomInputSource */ = {
+			isa = PBXGroup;
+			children = (
+				586119651F42E5D400F03CBE /* RunLoopSource.h */,
+				586119661F42E5D400F03CBE /* RunLoopSource.m */,
+				586119531F42E4F200F03CBE /* AppDelegate.h */,
+				586119541F42E4F200F03CBE /* AppDelegate.m */,
+				586119561F42E4F200F03CBE /* ViewController.h */,
+				586119571F42E4F200F03CBE /* ViewController.m */,
+				586119591F42E4F200F03CBE /* Main.storyboard */,
+				5861195C1F42E4F200F03CBE /* Assets.xcassets */,
+				5861195E1F42E4F200F03CBE /* LaunchScreen.storyboard */,
+				586119611F42E4F200F03CBE /* Info.plist */,
+				586119501F42E4F200F03CBE /* Supporting Files */,
+			);
+			path = CustomInputSource;
+			sourceTree = "<group>";
+		};
+		586119501F42E4F200F03CBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				586119511F42E4F200F03CBE /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +252,40 @@
 			productReference = 582E99B31EB8646500F07587 /* Configuring-an-NSMachPort-Object */;
 			productType = "com.apple.product-type.tool";
 		};
+		586119321F42E4E200F03CBE /* RunLoopObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586119471F42E4E200F03CBE /* Build configuration list for PBXNativeTarget "RunLoopObserver" */;
+			buildPhases = (
+				5861192F1F42E4E200F03CBE /* Sources */,
+				586119301F42E4E200F03CBE /* Frameworks */,
+				586119311F42E4E200F03CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunLoopObserver;
+			productName = RunLoopObserver;
+			productReference = 586119331F42E4E200F03CBE /* RunLoopObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5861194D1F42E4F200F03CBE /* CustomInputSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586119621F42E4F200F03CBE /* Build configuration list for PBXNativeTarget "CustomInputSource" */;
+			buildPhases = (
+				5861194A1F42E4F200F03CBE /* Sources */,
+				5861194B1F42E4F200F03CBE /* Frameworks */,
+				5861194C1F42E4F200F03CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomInputSource;
+			productName = CustomInputSource;
+			productReference = 5861194E1F42E4F200F03CBE /* CustomInputSource.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,6 +305,14 @@
 						DevelopmentTeam = 98WR9248J9;
 						ProvisioningStyle = Automatic;
 					};
+					586119321F42E4E200F03CBE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5861194D1F42E4F200F03CBE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 582E999B1EB834F900F07587 /* Build configuration list for PBXProject "Thread_Samples" */;
@@ -176,6 +321,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 582E99971EB834F700F07587;
 			productRefGroup = 582E99A11EB834F900F07587 /* Products */;
@@ -184,9 +330,34 @@
 			targets = (
 				582E999F1EB834F900F07587 /* Define-Custom-Input-Source */,
 				582E99B21EB8646500F07587 /* Configuring-an-NSMachPort-Object */,
+				586119321F42E4E200F03CBE /* RunLoopObserver */,
+				5861194D1F42E4F200F03CBE /* CustomInputSource */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		586119311F42E4E200F03CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586119451F42E4E200F03CBE /* LaunchScreen.storyboard in Resources */,
+				586119421F42E4E200F03CBE /* Assets.xcassets in Resources */,
+				586119401F42E4E200F03CBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5861194C1F42E4F200F03CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586119601F42E4F200F03CBE /* LaunchScreen.storyboard in Resources */,
+				5861195D1F42E4F200F03CBE /* Assets.xcassets in Resources */,
+				5861195B1F42E4F200F03CBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		582E999C1EB834F900F07587 /* Sources */ = {
@@ -209,7 +380,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5861192F1F42E4E200F03CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5861193D1F42E4E200F03CBE /* ViewController.m in Sources */,
+				5861193A1F42E4E200F03CBE /* AppDelegate.m in Sources */,
+				586119371F42E4E200F03CBE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5861194A1F42E4F200F03CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586119581F42E4F200F03CBE /* ViewController.m in Sources */,
+				586119551F42E4F200F03CBE /* AppDelegate.m in Sources */,
+				586119671F42E5D400F03CBE /* RunLoopSource.m in Sources */,
+				586119521F42E4F200F03CBE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5861193E1F42E4E200F03CBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5861193F1F42E4E200F03CBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		586119431F42E4E200F03CBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586119441F42E4E200F03CBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		586119591F42E4F200F03CBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5861195A1F42E4F200F03CBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5861195E1F42E4F200F03CBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5861195F1F42E4F200F03CBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		582E99A51EB834F900F07587 /* Debug */ = {
@@ -333,6 +560,64 @@
 			};
 			name = Release;
 		};
+		586119481F42E4E200F03CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RunLoopObserver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tenneshop.RunLoopObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		586119491F42E4E200F03CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RunLoopObserver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tenneshop.RunLoopObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		586119631F42E4F200F03CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CustomInputSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tenneshop.CustomInputSource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		586119641F42E4F200F03CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CustomInputSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tenneshop.CustomInputSource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -362,6 +647,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		586119471F42E4E200F03CBE /* Build configuration list for PBXNativeTarget "RunLoopObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586119481F42E4E200F03CBE /* Debug */,
+				586119491F42E4E200F03CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		586119621F42E4F200F03CBE /* Build configuration list for PBXNativeTarget "CustomInputSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586119631F42E4F200F03CBE /* Debug */,
+				586119641F42E4F200F03CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
