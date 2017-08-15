@@ -26,6 +26,8 @@
 		5861195D1F42E4F200F03CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5861195C1F42E4F200F03CBE /* Assets.xcassets */; };
 		586119601F42E4F200F03CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5861195E1F42E4F200F03CBE /* LaunchScreen.storyboard */; };
 		586119671F42E5D400F03CBE /* RunLoopSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 586119661F42E5D400F03CBE /* RunLoopSource.m */; };
+		5861196A1F42F07F00F03CBE /* RunLoopObserverCallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 586119691F42F07F00F03CBE /* RunLoopObserverCallBack.m */; };
+		5861196B1F42F07F00F03CBE /* RunLoopObserverCallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 586119691F42F07F00F03CBE /* RunLoopObserverCallBack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -84,6 +86,8 @@
 		586119611F42E4F200F03CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		586119651F42E5D400F03CBE /* RunLoopSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopSource.h; sourceTree = "<group>"; };
 		586119661F42E5D400F03CBE /* RunLoopSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopSource.m; sourceTree = "<group>"; };
+		586119681F42F05F00F03CBE /* RunLoopObserverCallBack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopObserverCallBack.h; sourceTree = "<group>"; };
+		586119691F42F07F00F03CBE /* RunLoopObserverCallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopObserverCallBack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,8 @@
 				586119391F42E4E200F03CBE /* AppDelegate.m */,
 				5861193B1F42E4E200F03CBE /* ViewController.h */,
 				5861193C1F42E4E200F03CBE /* ViewController.m */,
+				586119681F42F05F00F03CBE /* RunLoopObserverCallBack.h */,
+				586119691F42F07F00F03CBE /* RunLoopObserverCallBack.m */,
 				5861193E1F42E4E200F03CBE /* Main.storyboard */,
 				586119411F42E4E200F03CBE /* Assets.xcassets */,
 				586119431F42E4E200F03CBE /* LaunchScreen.storyboard */,
@@ -386,6 +392,7 @@
 			files = (
 				5861193D1F42E4E200F03CBE /* ViewController.m in Sources */,
 				5861193A1F42E4E200F03CBE /* AppDelegate.m in Sources */,
+				5861196A1F42F07F00F03CBE /* RunLoopObserverCallBack.m in Sources */,
 				586119371F42E4E200F03CBE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +404,7 @@
 				586119581F42E4F200F03CBE /* ViewController.m in Sources */,
 				586119551F42E4F200F03CBE /* AppDelegate.m in Sources */,
 				586119671F42E5D400F03CBE /* RunLoopSource.m in Sources */,
+				5861196B1F42F07F00F03CBE /* RunLoopObserverCallBack.m in Sources */,
 				586119521F42E4F200F03CBE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

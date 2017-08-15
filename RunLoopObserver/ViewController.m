@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RunLoopObserverCallBack.h"
 
 @interface ViewController ()
 {
@@ -25,7 +26,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // The application uses garbage collection, so no autorelease pool is needed.
     NSRunLoop* myRunLoop = [NSRunLoop currentRunLoop];
     
     // Create a run loop observer and attach it to the run loop.
@@ -37,43 +37,6 @@
         CFRunLoopRef    cfLoop = [myRunLoop getCFRunLoop];
         CFRunLoopAddObserver(cfLoop, observer, kCFRunLoopDefaultMode);
     }
-}
-
-void myRunLoopObserver(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info)
-{
-    NSString *activityName;
-    
-    switch (activity) {
-        case kCFRunLoopEntry:
-            activityName = @"kCFRunLoopEntry";
-            break;
-            
-        case kCFRunLoopBeforeTimers:
-            activityName = @"kCFRunLoopBeforeTimers";
-            break;
-            
-        case kCFRunLoopBeforeSources:
-            activityName = @"kCFRunLoopBeforeSources";
-            break;
-            
-        case kCFRunLoopBeforeWaiting:
-            activityName = @"kCFRunLoopBeforeWaiting";
-            break;
-            
-        case kCFRunLoopAfterWaiting:
-            activityName = @"kCFRunLoopAfterWaiting";
-            break;
-            
-        case kCFRunLoopExit:
-            activityName = @"kCFRunLoopExit";
-            break;
-            
-        case kCFRunLoopAllActivities:
-            activityName = @"kCFRunLoopAllActivities";
-            break;
-    }
-    
-    NSLog(@"%@\n", activityName);
 }
 
 @end

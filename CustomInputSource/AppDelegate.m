@@ -8,8 +8,12 @@
 
 #import "AppDelegate.h"
 #import "RunLoopSource.h"
+#import "RunLoopObserverCallBack.h"
 
 @interface AppDelegate ()
+{
+    CFRunLoopObserverRef    observer;
+}
 
 @property (nonatomic) NSMutableArray *sourcesToPing;
 
@@ -95,13 +99,26 @@
             RunLoopSource *runLoopSource = [[RunLoopSource alloc] init];
             [runLoopSource addToCurrentRunLoop];
             
+            // Install a run loop observer
+            NSRunLoop* myRunLoop = [NSRunLoop currentRunLoop];
+            
+            // Create a run loop observer and attach it to the run loop.
+            CFRunLoopObserverContext  context = {0, (__bridge void *)(self), NULL, NULL, NULL};
+            observer = CFRunLoopObserverCreate(kCFAllocatorDefault,
+                                               kCFRunLoopAllActivities, YES, 0, &myRunLoopObserver, &context);
+            
+            if (observer) {
+                CFRunLoopRef    cfLoop = [myRunLoop getCFRunLoop];
+                CFRunLoopAddObserver(cfLoop, observer, kCFRunLoopDefaultMode);
+            }
+            
             while (moreWorkToDo && !exitNow)
             {
                 // Do one chunk of a larger body of work here.
                 // Change the value of the moreWorkToDo Boolean when done.
                 
                 // Run the run loop but timeout immediately if the input source isn't waiting to fire.
-                [runLoop runUntilDate:[[NSDate date] dateByAddingTimeInterval:10]];
+                [runLoop runUntilDate:[[NSDate date] dateByAddingTimeInterval:60]];
                 
                 // Check to see if an input source handler changed the exitNow value.
                 exitNow = [[threadDict valueForKey:@"ThreadShouldExitNow"] boolValue];
