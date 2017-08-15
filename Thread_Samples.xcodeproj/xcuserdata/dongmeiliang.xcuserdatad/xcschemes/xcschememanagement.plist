@@ -6,11 +6,15 @@
 	<dict>
 		<key>Configuring-an-NSMachPort-Object.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Thread_Samples.xcscheme</key>
+		<key>Define-Custom-Input-Source.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>

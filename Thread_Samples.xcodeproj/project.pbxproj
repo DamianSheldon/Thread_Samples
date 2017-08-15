@@ -72,7 +72,7 @@
 		582E99971EB834F700F07587 = {
 			isa = PBXGroup;
 			children = (
-				582E99A21EB834F900F07587 /* Thread_Samples */,
+				582E99AA1EB8362500F07587 /* Define-Custom-Input-Source */,
 				582E99B41EB8646500F07587 /* Configuring-an-NSMachPort-Object */,
 				582E99A11EB834F900F07587 /* Products */,
 			);
@@ -87,14 +87,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		582E99A21EB834F900F07587 /* Thread_Samples */ = {
-			isa = PBXGroup;
-			children = (
-				582E99AA1EB8362500F07587 /* Define-Custom-Input-Source */,
-			);
-			path = Thread_Samples;
-			sourceTree = "<group>";
-		};
 		582E99AA1EB8362500F07587 /* Define-Custom-Input-Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +95,7 @@
 				582E99AC1EB8368000F07587 /* ThreadManager.m */,
 			);
 			name = "Define-Custom-Input-Source";
+			path = Thread_Samples;
 			sourceTree = "<group>";
 		};
 		582E99B41EB8646500F07587 /* Configuring-an-NSMachPort-Object */ = {
@@ -359,6 +352,7 @@
 				582E99A91EB834F900F07587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		582E99B71EB8646600F07587 /* Build configuration list for PBXNativeTarget "Configuring-an-NSMachPort-Object" */ = {
 			isa = XCConfigurationList;
@@ -367,6 +361,7 @@
 				582E99B91EB8646600F07587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
